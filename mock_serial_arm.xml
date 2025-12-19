@@ -1,0 +1,10 @@
+<library path="libmock_serial_arm">
+  <class
+    name="mock_serial_arm/MockSerialHardware"
+    type="mock_serial_arm::MockSerialHardware"
+    base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Mock serial hardware interface for a single joint arm
+    </description>
+  </class>
+</library>
